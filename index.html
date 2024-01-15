@@ -1,5 +1,5 @@
 <iframe class="iframe" id="iframe" onload="newscript();"></iframe>
-<script src="/games/gfiles/nowgg.js"></script>
+<script src="scripts/gg.js"></script>
 <style>
   .back{
     position: absolute;
@@ -25,12 +25,8 @@
 <script>
   function newscript(){
     var script=document.createElement("script");
-    script.src="/games/gfiles/nowgg.js";
+    script.src="scripts/gg.js";
     document.body.appendChild(script);
-  }
-  
-  function reroutetogames(){
-    window.location.pathname="/games";
   }
 </script>
 <script>
