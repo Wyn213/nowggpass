@@ -8,4 +8,7 @@ setInterval(() => {
 
     var fixHalfScreen=document.getElementById("js-game-video");
     fixHalfScreen.style.top = "0vh";
+    fixHalfScreen.style.left = "0vw";
+    fixHalfScreen.style.width = "100vw"
+    fixHalfScreen.style.height = "100vh"
 },0);
