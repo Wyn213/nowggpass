@@ -1,0 +1,119 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+.logs {
+  float: right;
+  resize: none;
+  height: 20vh;
+  width: 30vw;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+
+.tabs {
+  margin-top: 10vh;
+}
+
+.marks {
+  margin-top: 8vh;
+}
+
+.tabs a {
+  background-color: rgb(87, 87, 87);
+  color: white;
+  margin-bottom: 5px;
+  padding: 1vh 1vw;
+  user-select: none;
+  cursor: pointer;
+}
+
+.tab-contanier {
+  background-color: gray;
+  height: 40vh;
+  width: 25vw;
+  margin-top: 15px;
+}
+
+.mark-contanier {
+  background-color: gray;
+  height: 40vh;
+  width: 25vw;
+  margin-top: 15px;
+}
+
+.marks a {
+  background-color: rgb(87, 87, 87);
+  color: white;
+  margin-bottom: 5px;
+  padding: 1vh 1vw;
+  user-select: none;
+  cursor: pointer;
+}
+
+.body {
+  background-color: rgb(44, 44, 44);
+}
+
+.title {
+  color: white;
+  left: 5px;
+}
+
+.bookButton {
+  display: block; 
+}
+
+.frame iframe {
+  position: absolute;
+  left: 27vw;
+  top: 7.5vh;
+  width: 70vw;
+  height: 90%;
+  border: 2px solid rgba(46, 46, 46, 0.705);
+}
+
+.top a {
+  margin-right: 10px;
+  top: 50%;
+  position: absolute;
+  right: 0.5vw;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  background-color: rgb(31, 31, 31);
+  padding: 0.5vh 0.5vw;
+  border: 3px solid rgb(14, 14, 14);
+  transform: translateY(-50%);
+}
+
+.top {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 5vh;
+  width: 100vw;
+  background-color: rgb(19, 19, 19);
+}
+
+#address {
+  border: 3px solid rgba(0, 0, 0, 0.548);
+  background-color: rgb(27, 27, 27);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 65vw;
+  text-align: center;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.mark-img {
+  display: none;
+}
