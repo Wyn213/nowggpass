@@ -22,7 +22,7 @@ const errorCode = document.getElementById("uv-error-code");
 
 var logID = document.getElementById("logs")
 
-form.addEventListener("submit", async (event) => {
+document.addEventListener("DOMContentLoaded", async (event) => {
   event.preventDefault();
 
   try {
